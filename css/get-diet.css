@@ -1,0 +1,107 @@
+.carousel-one {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.carousel-one .mySlides {
+    display: none;
+}
+
+.carousel-one .mySlides img {
+    width: 100%;
+}
+
+.carousel-one .mySlides .caption-text {
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 38px;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-one .mySlides .number-text {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0px;
+}
+
+.carousel-one .fade-In {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.carousel-one .prev-slide,
+.carousel-one .next-slide {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 15px;
+    color: #9A9ABA;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0px 3px 3px 0px;
+    transition: 0.6s ease;
+}
+
+.carousel-one .prev-slide:hover,
+.carousel-one .next-slide:hover {
+    /*background-color: rgba(0, 0, 0, 0.8);*/
+    text-decoration: none;
+}
+
+.carousel-one .next-slide {
+    right: 0px;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.dots{
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+    background-color: #717171;
+}
+
+.activea {
+    background-color: #717171;
+}
+
+@keyframes fade {
+    from {
+        /*IE8*/
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        /*IE 5-7*/
+        filter: alpha(opacity=40);
+        /*Modern Browsers*/
+        opacity: 0.4;
+    }
+
+    to {
+        /*IE8*/
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        /*IE 5-7*/
+        filter: alpha(opacity=100);
+        /*Modern Browsers*/
+        opacity: 1;
+    }
+}
+/*carousel end*/

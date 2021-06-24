@@ -1,0 +1,131 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello there",
+          "How are you doing",
+          "Is anyone there ?",
+          "Have a nice day",
+          "Hello"
+        ],
+        "responses": [
+          "Hi, How can I help you?",
+          "Hello, how can I help you?",
+          "Hello, what can I do for you?",
+          "Hi how are you "
+        ]
+      },
+
+      
+      {
+        "tag": "chatbot",
+        "patterns": [
+          "your name ?",
+          "Who are you?",
+          "Are you human?",
+          "What is an Online Dietitian?"
+         
+        ],
+        "responses": [
+ 
+          "Hello, I am a system developed to help you",
+          "Hi, I'm here to help you. You can ask me whatever you want",
+          "My name is Robo-007, joke. I don't have a name, I'm here to help you."
+        ]
+      },
+      
+      {
+        "tag": "purpose",
+        "patterns": [
+          "What is the purpose of this website?",
+          "Why does this site exist?"
+        ],
+        "responses": [
+          "To create a diet list for users in line with their personal information",
+          "We are preparing a diet list for you by using your information"
+        ]
+      },
+
+
+
+      {
+        "tag": "exit",
+        "patterns": ["See you", "No questions later", "Mr."],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Good day, we expect you again",
+          "Mr, see you later"
+        ]
+      },
+      
+      
+      {
+        "tag": "thank you",
+        "patterns": ["Thank you", "Thank you for everything", "Thank you for helping"],
+        "responses": ["I'm glad to be able to help", "I can always help"]
+      },
+
+      {
+        "tag": "diet list",
+        "patterns": [
+          "How can I make a diet list?",
+          "Can I have the diet list?",
+          "What should I do to get a diet list?"
+        ],
+        
+        "responses": [
+          "To get a diet list, you need to sign in and click on the get diet list button",
+          "In order to get a diet list, you have to sign in, access my account page and click on the get diet list button. You can also send the diet list to yourself by e-mail"
+         
+        ]
+      },
+
+      {
+        "tag": "Calorie",
+        "patterns": [
+          "How can I find out the calories of fruits?",
+          "How can I find out the calories of food?",
+          "How can I find out the calories of the drinks?",
+          "What is the calorie of an orange?",
+          "How many calories is rice?"
+        ],
+        
+        "responses": [
+          "Click on the calories page in the menu to learn about the calories of food and beverages.",
+          "To learn about calories, click on the calories page in the menu."
+         
+        ]
+      },
+
+      {
+        "tag": "Body Mass Index",
+        "patterns": [
+          "How can I calculate Body Mass Index?",
+          "What does Body Mass Index show me as a result?"
+        ],
+        
+        "responses": [
+          "To calculate your body mass index, you need to sign in and click on the body mass index button",
+          "You can learn that you are underweight, normal or overweight according to your Body Mass Index result."
+        ]
+      }
+ 
+     
+   
+      
+   
+
+
+
+
+
+
+
+
+
+
+
+    ]
+  }
+  

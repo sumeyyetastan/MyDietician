@@ -1,0 +1,118 @@
+{
+  "intents": [
+   
+    {
+      "tag": "giris",
+      "patterns": [
+        "Merhaba",
+        "Nasilsin",
+        "Biri var mi ?",
+        "Iyi gunler",
+        "Selam"
+      ],
+      "responses": [
+        "Selam ,Nasil yardimci olabilirim ?",
+        "Merhabalar, nasil yardimci olabilirim ? ",
+        "Merhabalar, sizin icin ne yapabilirim ?",
+        "Selam nasilsin "
+      ]
+    },
+    {
+      "tag": "chatbot",
+      "patterns": [
+        "Senin adin ne ?",
+        "Senin ismin ne ?",
+        "Sen Kimsin?",
+        "Sen insan misin?",
+        "Online Diyetisyen nedir?",
+        "Chatbot ne ise yarar ?"
+      ],
+      "responses": [
+
+        "Merhaba ben sana yardımcı olmak için geliştirilmiş bir sistemim",
+        "Selam  sana yardımcı olmak için burdayım  İstediğin her konuyu bana sorabilirisin",
+        "Benim ismim Robo-007 , şakaa şaka .Benim bir ismim yok ben sana yardımcı olmak için buradayım. "
+      ]
+    },
+
+  
+
+    {
+      "tag": "amac",
+      "patterns": [
+        "Bu web sitesinin amaci nedir ?",
+        "Bu site neden var ?"
+      ],
+      "responses": [
+        " Kullanıcılara kişisel bilgileri doğrultusunda bir diyet listesi oluşturmaktır",
+        " Bilgilerinizi kullamarak sizlere diyet listesi hazırlıyoruz "
+      ]
+    },
+
+    {
+      "tag": "cikis",
+      "patterns": ["Gorusuruz","Sonra gorusuz","Bay"],
+      "responses": [
+        "Daha sonra görüşürüz, ziyaret etttiğiniz icin tesekkürler",
+        "Iyi günler, tekrar bekleriz",
+        "Bay, daha sonra görüşürüz"
+      ]
+    },
+    
+    {
+      "tag": "tesekkur",
+      "patterns": ["Tesekkurler","Hersey icin tesekkurler","Yardimci oldugun icin tesekkur ederim"],
+      "responses": ["Yardımci olabildiğim icin mutluyum","Her zaman yardimci olabilirim"]
+    },
+
+    {
+      "tag": "diyet listesi",
+      "patterns": [
+        "Nasil diyet listesi olusturabilirim ?",
+        "Diyet listesini alabilir miyim?",
+        "Diyet listesi alabilmek icin ne yapmaliyim"
+      ],
+      
+      "responses": [
+        "Diyet listesi almak için üye girişi yaparak diyet listesi al butonuna tıklamanız gerekmektedir",
+        "Diyet listesi alabilmek için , üye girişi yapıp hesabim sayfasına erişip diyet listesi al butonuna tıklamanız gerekmektedir. Ayrıca diyet listesini kendinize mail olarak gönderebilirsiniz "
+       
+      ]
+    },
+    {
+      "tag": "Kalori",
+      "patterns": [
+        "Meyvelerin kalorilerini nasil ogrenebilirim ?",
+        "Yiyeceklerin kalorilerini nasil ogrenebilirim ? ",
+        "Iceceklerin kalorini nasil ogrenebilirim ?",
+        "Portakalin kalorisi nedir ?",
+        "Pilav kac kaloridir ?"
+      ],
+      
+      "responses": [
+        "Yiyecek ve içeçeklerin kalorilerini öğrenmek için menüde bulunan kaloriler sayfasına tıklayınız.",
+        "Kaloriler hakkında bilgi edinmek için menüde bulunan  kaloriler sayfasına tıklayınız."
+       
+      ]
+    },
+    {
+      "tag": "Vucut Kitle Indeksi",
+      "patterns": [
+        "Vucut Kitle indeksini nasil hesaplayabilirim ?",
+        "Vucut kitle indeksi sonuc olarak bana ne gosterir ?"
+      ],
+      
+      "responses": [
+        "Vücut Kitle indeksinizi hesaplamanız  için üye girişi yaparak vücut kitle indeksi butonuna tıklamanız gerekmektedir",
+        "Vücut Kitle indeksi sonucuna göre zayıf, normal veye kilolu oldugunuzu öğrenebilirsiniz."
+      ]
+    }
+   
+
+
+    
+
+
+   
+  ]
+}
